@@ -36,15 +36,15 @@ predict部分は # で囲った部分のみ．
 0.
 ![ex0](./example/smile.jpg)
 1.
-![ex1](./example/laugh.jpg)
+![ex1](./example/laugh.jpg)  
 2.
 ![ex2](./example/wink.jpg)
 3.
-![ex3](./example/smug.jpg)
+![ex3](./example/smug.jpg)  
 4.
 ![ex4](./example/sad.jpg)
 5.
-![ex5](./example/ura.jpg)
+![ex5](./example/ura.jpg)  
 各種の裏面をすべてuraとして認識．  
 
 ## データセット
@@ -53,3 +53,7 @@ predict部分は # で囲った部分のみ．
 それ以外ラベルのデータについてはwikipediaから収集した人物画像(1300枚程度，毎回ランダムに200選択)を用いた．  
 
 学習時はデータセットをランダムに訓練・検証・評価データ(8:1:1)に（各ラベルごとに）分ける．
+
+
+
+model9.h5とmodel10.h5が最新で以上のラベルで学習済みである．
